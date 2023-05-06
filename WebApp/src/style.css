@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  thead {
+    background-color: #ddd;
+    color:brown;
+  }
+  
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+
+  
+body{
+    background-color: purple;
+    color:white;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button{
+    padding: 1%;
+}
+.btn{
+    display: flex;
+     
+    justify-content: flex-end;
+    align-items: flex-end;
+  
+}

@@ -1,0 +1,52 @@
+body{
+    background-color:purple;
+    color: black;
+    
+}
+.body{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    
+    margin-top: -7%;
+    flex-direction: column;
+}
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+input{
+    padding: 3%;
+   
+}
+#button{
+    padding: 5%;
+    padding-left: 40%;
+    padding-right: 40%;
+    text-align: center;
+}
+#Name,#Email, #Password, #Zip, #tel,#Area{
+    text-align: center;
+    color:red;
+}
+.rec{
+    display: flex;
+    flex-direction: row;
+    gap:35%;
+}
+img{
+    width: 100px;
+}
+.img{
+    display: flex;
+    
+    justify-content: flex-end;
+    
+}
