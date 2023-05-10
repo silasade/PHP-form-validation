@@ -52,6 +52,7 @@
       <th>Gender</th>
       <th>Zip Code</th>
       <th>About</th>
+      <th>Language</th>
     </tr>
   </thead>
   <tbody>
@@ -64,6 +65,7 @@
             <td><?php echo $row["gender"]; ?></td>
             <td><?php echo $row["zip"]; ?></td>
             <td><?php echo $row["about"]; ?></td>
+            <td><?php echo $row["languages"]; ?></td>
             
     </tr>
         <?php endwhile; ?>
