@@ -45,6 +45,7 @@
       <th>Gender</th>
       <th>Zip Code</th>
       <th>About</th>
+      <th>Language</th>
     </tr>
   </thead>
   <tbody>          
@@ -61,14 +62,15 @@
         $Lang=$row["languages"];
         $Zip=$row["zip"];
         $About=$row["about"];
-        if ($search===$Name|| $search===$Email || $search===$Phone || $search===$Gender || $search===$Zip || $search===$About): 
+        $lang=$row["languages"]; 
+        if ($search===$Name|| $search===$Email || $search===$Phone || $search===$Gender || $search===$Zip || $search===$About ||$search===$lang): 
             $Name1=$Name;
             $Email1=$Email;
             $Phone1=$Phone;
             $Gender1=$Gender;
             $Zip1=$Zip;
             $About1=$About;
-        
+            $Lang= $lang;
         
         ?>
             <tr>
@@ -78,6 +80,8 @@
             <td><?php echo $Gender1; ?></td>
             <td><?php echo $Zip1; ?></td>
             <td><?php echo $About1; ?></td>
+            <td><?php echo $lang; ?></td>
+
             
         </tr>
         <?php endif;
